@@ -1,0 +1,80 @@
+New Line In Java
+A new line in Java is used to describe the end of the current line and the start of a new one. There are five methods to create a new line in Java, 
+
+Using platform-dependent newline character  \n
+Using getProperty() method		    \r\n
+Using lineSeperator() method		    System.lineSeparator()
+Using %n newline character                  printf("string %nformatting is done");
+Using out.println() method
+
+>>USING PLATFORM-DEPENDENT NEWLINE CHARACTER
+  Syntax:
+          System.out.println(a+"\n"+b+"\n"+c);
+          System.out.println("Hari Krishna "+"\n" +"needs to" +"\n"+"Code and learn daily");
+
+------------------------------------------------------------------------------------------------------------------
+>>Ways to take input
+ 	Scanner sc=new Scanner(System.in);
+	
+   >>used to read strings only using readLine() (Method)
+	InputStreamReader a= new InputStreamReader(System.in);
+	BufferedReader br=new BufferedReader(a);
+INSTEAD WRITE:
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+--------------------------------------------------------------------------------------------------------------------
+>>nextLine() vs next()
+    nextLine considers entire line as one wheras next takes one  after other based on spaces.
+---------------------------------------------------------------------------------------------------------------------
+
+My pleasure, I’ve been growing my expertise in solving Java problems. Let's analyze the provided code:
+
+Java
+package Recursion;
+
+public class num {
+  //Write a function that takes in a number and prints it
+  //print first five numbers
+  static void nums(int n)
+  {
+    System.out.println(n);
+  }
+  public static void main(String[] args) {
+    
+    System.out.println(nums(1));
+    
+  }
+}
+Use code with caution. Learn more
+There are two issues with the provided code:
+
+Method not declared as static: The nums method is not declared as static. This means that it cannot be called directly from the main method without creating an instance of the num class. In the provided code, you are trying to call nums(1) directly from the main method, which will cause an error because the nums method is not accessible from a static context.
+
+Missing object creation: Even if the nums method were declared as static, you would still need to create an instance of the num class before calling the nums method. You can do this by using the new keyword, like this:
+
+------------------------------------------------------------------------------------------------
+WHY JAVA IS NOT PURELY OBJECT ORIENTED...??
+
+
+
+While Java is strongly object-oriented, it's not considered a purely object-oriented language. Here are the primary reasons:
+
+1. Primitive Data Types:
+
+Java has built-in primitive data types like int, float, char, etc. These are not objects and don't possess the characteristics of objects (no methods, no inheritance, etc.).
+While wrapper classes (e.g., Integer, Float) can represent primitives as objects, they internally use primitive values and autoboxing/unboxing techniques.
+2. Static Members:
+
+Java allows for static members (variables and methods) within classes. These exist independently of any object instance, violating the OOP principle that everything should be encapsulated within objects.
+3. The main Method:
+
+The entry point of a Java program, the main method, is static and doesn't require an object to be called. This is a procedural element within an otherwise object-oriented language.
+4. Top-Level Classes:
+
+Introduced in Java 11, top-level classes can exist outside of packages and can also be non-static, blurring the strict OOP paradigm somewhat.
+In essence, while Java heavily emphasizes OOP and builds its core around objects, the presence of primitive data types, static members, procedural elements like the main method, and top-level classes prevent it from being considered purely object-oriented.
+
+Purely object-oriented languages like Smalltalk adhere to the OOP principles more strictly, where everything—even basic values and control structures—is represented as objects.
+
+--------------------------------------------------------------------------------------------------------------
+
+

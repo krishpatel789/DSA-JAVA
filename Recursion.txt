@@ -1,0 +1,19 @@
+Recursion
+Searching
+Sorting
+String(methods)
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Morning(6 to 8 Coding DSA)
+Evening Library(3:40 to 6 Coding DSA)
+
+if class is strict>> Place a question in your mind think about the approach and later code it.
+
+Everyday Afternoon(40 min js course Cover,if class is free cover Mern)
+7Pm to 8Pm MERN(Continue)
+
+9 PM to 10:30PM (DSA problems)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+

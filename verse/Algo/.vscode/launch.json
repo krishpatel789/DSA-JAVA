@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "arrbasic",
+            "request": "launch",
+            "mainClass": "arrbasic",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "base",
+            "request": "launch",
+            "mainClass": "base",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "basicsstring",
+            "request": "launch",
+            "mainClass": "basicsstring",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "cast",
+            "request": "launch",
+            "mainClass": "cast",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "countletters",
+            "request": "launch",
+            "mainClass": "countletters",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "io",
+            "request": "launch",
+            "mainClass": "io",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "mainpat",
+            "request": "launch",
+            "mainClass": "mainpat",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "neww",
+            "request": "launch",
+            "mainClass": "neww",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "numbers",
+            "request": "launch",
+            "mainClass": "numbers",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "pattern3",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "pattern5",
+            "request": "launch",
+            "mainClass": "pattern5",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "pattern6",
+            "request": "launch",
+            "mainClass": "pattern6",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "pattern7",
+            "request": "launch",
+            "mainClass": "pattern7",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "stringMet",
+            "request": "launch",
+            "mainClass": "stringMet",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "stringbuilder",
+            "request": "launch",
+            "mainClass": "stringbuilder",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "stringz",
+            "request": "launch",
+            "mainClass": "stringz",
+            "projectName": "Algo_103d183a"
+        },
+        {
+            "type": "java",
+            "name": "substrings",
+            "request": "launch",
+            "mainClass": "substrings",
+            "projectName": "Algo_103d183a"
+        }
+    ]
+}

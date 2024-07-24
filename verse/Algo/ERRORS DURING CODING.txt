@@ -1,0 +1,17 @@
+ERRORS DURING CODING
+
+Unclosed String Literal- When String Literal ends without quatation marks
+Reached End of File While Prasing -closing brackets are not found
+Actual and Formal Arguments differ in Length :printing different datatypes opertion results on same line
+                                              we are calling the hello(int, int) method with two arguments but the compiler complains because it can only find the hello(int, int, int) method which has three arguments.
+
+sc.nextLine();
+This line reads the newline character from the console. This is necessary because the nextInt() method does not read the newline character.
+
+String OutOfBounds -When String is declared as empty and trying to print 1 st index element of String.
+
+InputMismatchException
+It is runtime exception thrown by scanner class.When the input is not matched as expected from the user.Example: when integer value is assigned for String type input.
+
+java.lang.NullPointerException
+This Exception occurs when a null value is passed to a method 

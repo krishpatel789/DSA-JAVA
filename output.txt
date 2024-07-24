@@ -1,0 +1,21 @@
+class java.lang.String
+same adress location: false
+equal to each other :true
+     concentrate on yourself      
+ 
+34
+  CONCENTRATE ON YOURSELF      
+     CONCENTRATE ON YOURSELF       HARD : 
+CONCENTRATE ON YOURSELF
+Microsoft
+9
+Micro
+Microsoft is a good company
+Google
+Google
+microsoft
+MICROSOFT
+true
+true
+-1
+true
